@@ -9,7 +9,7 @@ for(int i=0;i<4;i++){
 }
 int sum=0;
 for(int i=0;i<4;i++){
-  sum+=*p[i];
+  sum+=p[i];
 }
 printf("%d",sum);
 return 0;
